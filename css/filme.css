@@ -35,13 +35,13 @@ header section h3{
     font-size: 2rem;
     font-family: 'Jaro', sans-serif;   
 }
-header nav{
+header nav div{
     display: flex;
     align-items: center;
     margin-left: auto;
 }
 
-header nav aside{
+header nav div form{
     display: flex;
     border: none;
     border-radius: 0.5rem;
@@ -51,7 +51,7 @@ header nav aside{
     margin-left: auto;
 }
 
-header nav aside input{
+header nav div form input{
     background-color: #6E7081;
     border-radius: 0.8rem;
     color: white;
@@ -59,17 +59,17 @@ header nav aside input{
     height: 2rem;
 }
 
-header nav aside input::placeholder{
+header nav div form input::placeholder{
     color: white;
     padding: 0.8rem;
 }
 
-header nav aside img{
+header nav div form img{
     width: 1.5rem;
     margin-right: 0.7rem;
 }
 
-header nav a{
+header nav div a{
     text-decoration: none;
     border: 0.2rem solid #EF233C;
     border-radius: 0.5rem;
